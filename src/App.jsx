@@ -47,7 +47,7 @@ const App = () => {
   }, [mainItems]);
 
   return (
-    <div className="max-w-lg mx-auto p-6 mt-12 bg-gray-100 rounded-lg shadow-md flex flex-col ">
+    <div className="max-w-lg mx-2 md:mx-auto px-4 md:px-6 py-6 mt-12 bg-gray-100 rounded-lg shadow-md flex flex-col">
       <h1 className="text-2xl font-bold mb-14 text-center">My Grocery List</h1>
       <Form setMainItems={setMainItems} />
       <GroceryList
