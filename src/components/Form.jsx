@@ -27,7 +27,7 @@ const Form = ({ setMainItems }) => {
 
   return (
     <form className="mb-6" onSubmit={handleSubmit}>
-      <div className="flex gap-2">
+      <div className="flex flex-col md:flex-row gap-2">
         <input
           type="text"
           value={item}
